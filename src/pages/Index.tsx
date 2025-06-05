@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import ApiDemo from "@/components/ApiDemo";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <ApiDemo />
       <Pricing />
       <Footer />
+      <Chatbot />
     </div>
   );
 };
